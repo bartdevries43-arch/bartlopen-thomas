@@ -1,7 +1,7 @@
 {
-  "name": "Op naar 25K — bartlopen Run Coach",
+  "name": "Op naar 25K · bartlopen Run Coach",
   "short_name": "Op naar 25K",
-  "description": "Thomass persoonlijke schema: via de Maastunnelloop 10 km onder 55 minuten naar haar eerste halve marathon, met coaching van @bartlopen.",
+  "description": "Het persoonlijke schema van Thomas: in 37 weken naar 25 km op doeltempo, met coaching van @bartlopen, planning, stats en badges.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
@@ -9,8 +9,23 @@
   "background_color": "#08090d",
   "theme_color": "#08090d",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }

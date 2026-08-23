@@ -856,7 +856,7 @@ const INFO = [
     "Komt een hele week niet uit? Gebruik de knop bij het schema om alles een week op te schuiven.",
   ]},
   { icon: "😴", title: "Herstel en signalen", items: [
-    "Slaap is je goedkoopste winst. Zeven tot negen uur maakt een groot verschin in je herstel.",
+    "Slaap is je goedkoopste winst. Zeven tot negen uur maakt een groot verschil in je herstel.",
     "Een dag spierpijn is normaal. Drie dagen moeheid betekent te veel of te snel.",
     "Verhoogde rusthartslag, slecht slapen of geen zin: dat zijn signalen, geen zwakte.",
     "Ziek met koorts? Niet lopen. Wacht tot je een dag klachtenvrij bent en pak dan rustig op.",
