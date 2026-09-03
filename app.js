@@ -118,7 +118,7 @@ const zo  = (o) => ({ day: "zo", dayLabel: "Zondag",    kind: "Lange duurloop", 
 
 /* --- Het schema ------------------------------------------------------- */
 const PLAN = [
-  { week: 1, dates: "24-30 aug", phase: "Fase 1 · Basis terugpakken", sessions: [
+  { week: 1, dates: "24–30 aug", phase: "Fase 1 · Basis terugpakken", sessions: [
     di({ zone: "duur", km: 5, kind: "Rustige duurloop", title: "Rustig weer beginnen", goal: "Voeten en schenen laten wennen", blocks: [
       "5 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -135,7 +135,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 2, dates: "31 aug-6 sep", phase: "Fase 1 · Basis terugpakken", sessions: [
+  { week: 2, dates: "31 aug–6 sep", phase: "Fase 1 · Basis terugpakken", sessions: [
     di({ zone: "duur", km: 5, kind: "Rustige duurloop", title: "Zelfde als vorige week", goal: "Herhaling maakt het makkelijker", blocks: [
       "5 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -152,7 +152,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 3, dates: "7-13 sep", phase: "Fase 1 · Basis terugpakken", sessions: [
+  { week: 3, dates: "7–13 sep", phase: "Fase 1 · Basis terugpakken", sessions: [
     di({ zone: "duur", km: 6, kind: "Rustige duurloop", title: "Ontspannen 6 km", goal: "Alles op praattempo", blocks: [
       "6 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -169,7 +169,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 4, dates: "14-20 sep", phase: "Fase 1 · Basis terugpakken", recovery: true, sessions: [
+  { week: 4, dates: "14–20 sep", phase: "Fase 1 · Basis terugpakken", recovery: true, sessions: [
     di({ zone: "herstel", km: 5, kind: "Herstel", title: "Rustige week", goal: "Elke vierde week is lichter", blocks: [
       "5 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -185,7 +185,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 5, dates: "21-27 sep", phase: "Fase 1 · Basis terugpakken", sessions: [
+  { week: 5, dates: "21–27 sep", phase: "Fase 1 · Basis terugpakken", sessions: [
     di({ zone: "duur", km: 6, kind: "Rustige duurloop", title: "Weer opbouwen", goal: "Fris na de rustige week", blocks: [
       "6 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -202,7 +202,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 6, dates: "28 sep-4 okt", phase: "Fase 1 · Basis terugpakken", sessions: [
+  { week: 6, dates: "28 sep–4 okt", phase: "Fase 1 · Basis terugpakken", sessions: [
     di({ zone: "duur", km: 7, kind: "Rustige duurloop", title: "7 km rustig", goal: "Basis verder uitbouwen", blocks: [
       "7 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -220,7 +220,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 7, dates: "5-11 okt", phase: "Fase 1 · Basis terugpakken", sessions: [
+  { week: 7, dates: "5–11 okt", phase: "Fase 1 · Basis terugpakken", sessions: [
     di({ zone: "duur", km: 7, kind: "Rustige duurloop", title: "Rustig doorbouwen", goal: "Niets forceren", blocks: [
       "7 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -238,7 +238,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 8, dates: "12-18 okt", phase: "Fase 1 · Basis terugpakken", recovery: true, sessions: [
+  { week: 8, dates: "12–18 okt", phase: "Fase 1 · Basis terugpakken", recovery: true, sessions: [
     di({ zone: "herstel", km: 5, kind: "Herstel", title: "Rustige week", goal: "Opladen voor het tempowerk", blocks: [
       "5 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -254,7 +254,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 9, dates: "19-25 okt", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
+  { week: 9, dates: "19–25 okt", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
     di({ zone: "duur", km: 8, kind: "Rustige duurloop", title: "8 km rustig", goal: "Volume vasthouden", blocks: [
       "8 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -273,7 +273,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 10, dates: "26 okt-1 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
+  { week: 10, dates: "26 okt–1 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
     di({ zone: "duur", km: 8, kind: "Rustige duurloop", title: "Rustig herstellen", goal: "Makkelijk moet makkelijk zijn", blocks: [
       "8 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -292,7 +292,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 11, dates: "2-8 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
+  { week: 11, dates: "2–8 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
     di({ zone: "duur", km: 9, kind: "Rustige duurloop", title: "9 km rustig", goal: "Basis groeit mee", blocks: [
       "9 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -311,7 +311,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 12, dates: "9-15 nov", phase: "Fase 2 · Uitbouwen en tempo leren", tuneup: true, raceLabel: "⏱️ Tijdrit · 10 km", tuneupTag: "Tijdrit", sessions: [
+  { week: 12, dates: "9–15 nov", phase: "Fase 2 · Uitbouwen en tempo leren", tuneup: true, raceLabel: "⏱️ Tijdrit · 10 km", tuneupTag: "Tijdrit", sessions: [
     di({ zone: "duur", km: 7, kind: "Rustige duurloop", title: "Rustig voor de tijdrit", goal: "Benen sparen voor zondag", blocks: [
       "7 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -330,7 +330,7 @@ const PLAN = [
       "2 km rustig uitlopen",
     ] }),
   ]},
-  { week: 13, dates: "16-22 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
+  { week: 13, dates: "16–22 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
     di({ zone: "herstel", km: 7, kind: "Herstel", title: "Bijkomen van de tijdrit", goal: "Rustig, je hebt hard gewerkt", blocks: [
       "7 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -348,7 +348,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 14, dates: "23-29 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
+  { week: 14, dates: "23–29 nov", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
     di({ zone: "duur", km: 9, kind: "Rustige duurloop", title: "9 km rustig", goal: "Onderhoud", blocks: [
       "9 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -367,7 +367,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 15, dates: "30 nov-6 dec", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
+  { week: 15, dates: "30 nov–6 dec", phase: "Fase 2 · Uitbouwen en tempo leren", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Stevige basis", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -386,7 +386,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 16, dates: "7-13 dec", phase: "Fase 2 · Uitbouwen en tempo leren", recovery: true, sessions: [
+  { week: 16, dates: "7–13 dec", phase: "Fase 2 · Uitbouwen en tempo leren", recovery: true, sessions: [
     di({ zone: "herstel", km: 6, kind: "Herstel", title: "Rustige week", goal: "Fase 2 afsluiten", blocks: [
       "6 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -403,7 +403,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 17, dates: "14-20 dec", phase: "Fase 3 · Kracht op tempo", sessions: [
+  { week: 17, dates: "14–20 dec", phase: "Fase 3 · Kracht op tempo", sessions: [
     di({ zone: "duur", km: 9, kind: "Rustige duurloop", title: "9 km rustig", goal: "Fase 3 begint", blocks: [
       "9 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -422,7 +422,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 18, dates: "21-27 dec", phase: "Fase 3 · Kracht op tempo", sessions: [
+  { week: 18, dates: "21–27 dec", phase: "Fase 3 · Kracht op tempo", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Onderhoud", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -441,7 +441,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 19, dates: "28 dec-3 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
+  { week: 19, dates: "28 dec–3 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Volume vasthouden", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -460,7 +460,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 20, dates: "4-10 jan", phase: "Fase 3 · Kracht op tempo", recovery: true, sessions: [
+  { week: 20, dates: "4–10 jan", phase: "Fase 3 · Kracht op tempo", recovery: true, sessions: [
     di({ zone: "herstel", km: 6, kind: "Herstel", title: "Rustige week", goal: "Elke vierde week lichter", blocks: [
       "6 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -477,7 +477,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 21, dates: "11-17 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
+  { week: 21, dates: "11–17 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Weer opbouwen", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -496,7 +496,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 22, dates: "18-24 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
+  { week: 22, dates: "18–24 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Onderhoud", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -515,7 +515,7 @@ const PLAN = [
       "1 km heel rustig uitlopen",
     ] }),
   ]},
-  { week: 23, dates: "25-31 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
+  { week: 23, dates: "25–31 jan", phase: "Fase 3 · Kracht op tempo", sessions: [
     di({ zone: "duur", km: 11, kind: "Rustige duurloop", title: "11 km rustig", goal: "Stevige basis", blocks: [
       "11 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -534,7 +534,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 24, dates: "1-7 feb", phase: "Fase 3 · Kracht op tempo", recovery: true, sessions: [
+  { week: 24, dates: "1–7 feb", phase: "Fase 3 · Kracht op tempo", recovery: true, sessions: [
     di({ zone: "herstel", km: 6, kind: "Herstel", title: "Rustige week", goal: "Fase 3 afsluiten", blocks: [
       "6 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -551,7 +551,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 25, dates: "8-14 feb", phase: "Fase 4 · Naar de afstand", sessions: [
+  { week: 25, dates: "8–14 feb", phase: "Fase 4 · Naar de afstand", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Fase 4: nu wordt het lang", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -570,7 +570,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 26, dates: "15-21 feb", phase: "Fase 4 · Naar de afstand", sessions: [
+  { week: 26, dates: "15–21 feb", phase: "Fase 4 · Naar de afstand", sessions: [
     di({ zone: "duur", km: 11, kind: "Rustige duurloop", title: "11 km rustig", goal: "Onderhoud", blocks: [
       "11 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -589,7 +589,7 @@ const PLAN = [
       "1 km heel rustig uitlopen",
     ] }),
   ]},
-  { week: 27, dates: "22-28 feb", phase: "Fase 4 · Naar de afstand", sessions: [
+  { week: 27, dates: "22–28 feb", phase: "Fase 4 · Naar de afstand", sessions: [
     di({ zone: "duur", km: 11, kind: "Rustige duurloop", title: "11 km rustig", goal: "Volume vasthouden", blocks: [
       "11 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -608,7 +608,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 28, dates: "1-7 mrt", phase: "Fase 4 · Naar de afstand", recovery: true, sessions: [
+  { week: 28, dates: "1–7 mrt", phase: "Fase 4 · Naar de afstand", recovery: true, sessions: [
     di({ zone: "herstel", km: 7, kind: "Herstel", title: "Rustige week", goal: "Na 21 km mag dit", blocks: [
       "7 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -625,7 +625,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 29, dates: "8-14 mrt", phase: "Fase 4 · Naar de afstand", sessions: [
+  { week: 29, dates: "8–14 mrt", phase: "Fase 4 · Naar de afstand", sessions: [
     di({ zone: "duur", km: 11, kind: "Rustige duurloop", title: "11 km rustig", goal: "Weer opbouwen", blocks: [
       "11 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -644,7 +644,7 @@ const PLAN = [
       "1 km heel rustig uitlopen",
     ] }),
   ]},
-  { week: 30, dates: "15-21 mrt", phase: "Fase 4 · Naar de afstand", sessions: [
+  { week: 30, dates: "15–21 mrt", phase: "Fase 4 · Naar de afstand", sessions: [
     di({ zone: "duur", km: 12, kind: "Rustige duurloop", title: "12 km rustig", goal: "Stevige basis", blocks: [
       "12 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -663,7 +663,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 31, dates: "22-28 mrt", phase: "Fase 4 · Naar de afstand", sessions: [
+  { week: 31, dates: "22–28 mrt", phase: "Fase 4 · Naar de afstand", sessions: [
     di({ zone: "duur", km: 12, kind: "Rustige duurloop", title: "12 km rustig", goal: "Onderhoud", blocks: [
       "12 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -682,7 +682,7 @@ const PLAN = [
       "1 km heel rustig uitlopen",
     ] }),
   ]},
-  { week: 32, dates: "29 mrt-4 apr", phase: "Fase 4 · Naar de afstand", recovery: true, sessions: [
+  { week: 32, dates: "29 mrt–4 apr", phase: "Fase 4 · Naar de afstand", recovery: true, sessions: [
     di({ zone: "herstel", km: 7, kind: "Herstel", title: "Rustige week", goal: "Fase 4 afsluiten", blocks: [
       "7 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -699,7 +699,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 33, dates: "5-11 apr", phase: "Fase 5 · Doeltempo op afstand", sessions: [
+  { week: 33, dates: "5–11 apr", phase: "Fase 5 · Doeltempo op afstand", sessions: [
     di({ zone: "duur", km: 11, kind: "Rustige duurloop", title: "11 km rustig", goal: "Fase 5: doeltempo op afstand", blocks: [
       "11 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -718,7 +718,7 @@ const PLAN = [
       "1 km heel rustig uitlopen",
     ] }),
   ]},
-  { week: 34, dates: "12-18 apr", phase: "Fase 5 · Doeltempo op afstand", sessions: [
+  { week: 34, dates: "12–18 apr", phase: "Fase 5 · Doeltempo op afstand", sessions: [
     di({ zone: "duur", km: 12, kind: "Rustige duurloop", title: "12 km rustig", goal: "Onderhoud", blocks: [
       "12 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -737,7 +737,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 35, dates: "19-25 apr", phase: "Fase 5 · Doeltempo op afstand", sessions: [
+  { week: 35, dates: "19–25 apr", phase: "Fase 5 · Doeltempo op afstand", sessions: [
     di({ zone: "duur", km: 10, kind: "Rustige duurloop", title: "10 km rustig", goal: "Sparen voor zondag", blocks: [
       "10 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
@@ -756,7 +756,7 @@ const PLAN = [
       "Rustig uitlopen en goed eten daarna",
     ] }),
   ]},
-  { week: 36, dates: "26 apr-2 mei", phase: "Fase 5 · Doeltempo op afstand", taper: true, sessions: [
+  { week: 36, dates: "26 apr–2 mei", phase: "Fase 5 · Doeltempo op afstand", taper: true, sessions: [
     di({ zone: "herstel", km: 8, kind: "Herstel", title: "Bijkomen van de 26", goal: "Alles rustig", blocks: [
       "8 km heel rustig op 6:15-6:45/km",
       "Dit is bewust makkelijk, houd het makkelijk",
@@ -774,7 +774,7 @@ const PLAN = [
       "Laatste kilometer uitlopen",
     ] }),
   ]},
-  { week: 37, dates: "3-9 mei", phase: "Fase 6 · Jouw 25 km", finish: true, raceLabel: "🏁 Jouw 25 km", sessions: [
+  { week: 37, dates: "3–9 mei", phase: "Fase 6 · Jouw 25 km", finish: true, raceLabel: "🏁 Jouw 25 km", sessions: [
     di({ zone: "duur", km: 8, kind: "Rustige duurloop", title: "Losmaken", goal: "Kort en rustig, niets forceren", blocks: [
       "8 km op 5:45-6:15/km",
       "Praattempo: je kunt een hele zin uitspreken",
